@@ -1,11 +1,8 @@
 .App {
   text-align: center;
+  position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -13,8 +10,11 @@
   }
 }
 
+
+
+
 .App-header {
-  background-color: #282c34;
+  background-image: linear-gradient(150deg,#123456,#7cb2e7); 
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,15 +24,3 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

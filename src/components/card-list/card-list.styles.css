@@ -1,0 +1,7 @@
+.container div{
+    position: relative;
+    margin: 50px 50px;
+    background-image: linear-gradient(150deg,#19e94d,#07571b);
+    padding: 10px 10px;
+    border-radius: 15px;
+  }
