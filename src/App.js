@@ -6,6 +6,7 @@ import './App.css';
 
 
 const App = ()=>{
+  console.log('rendered')
 
   // You can change states in functional implementations using hooks
   
